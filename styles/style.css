@@ -502,7 +502,7 @@ ul li {
     font-weight: 400;
   }
 
-  .join-section-totle {
+  .join-section-title {
     font-size: 2rem;
   }
   .join-section-description {
@@ -518,6 +518,14 @@ ul li {
     width: 350px;
     margin: auto;
   }
+
+  .zabo-plant-discount {
+    font-size: 1.25rem;
+  }
+  .zabo-btn {
+    font-size: 1rem;
+  }
+
   .join-section-left {
     width: 100%;
   }
@@ -552,6 +560,7 @@ ul li {
     align-items: flex-start;
     margin-left: 10px;
     gap: 20px;
+    margin-bottom: 20px;
   }
 
   .div-1 {
@@ -561,5 +570,9 @@ ul li {
   .div-2 {
     max-width: 85px;
     text-align: start;
+  }
+
+  .div-4 {
+    margin-bottom: 20px;
   }
 }
