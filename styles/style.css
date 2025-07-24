@@ -380,7 +380,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
   .plants-card-container {
-    gap: 10px;
+    gap: 5px;
     margin: auto;
   }
 
@@ -409,14 +409,16 @@ button {
   }
 
   .plants-card {
-    max-width: 200px;
+    max-width: 180px;
     margin: 0 auto;
     padding: 10px;
   }
 
   .card-btn {
-    padding: 5px 10px;
+    font-size: 1rem;
+    padding: 10px 10px;
     margin-top: 10px;
+    text-decoration: none;
   }
 
   .Plants-lover-section {
