@@ -91,7 +91,7 @@ span {
 /* plants section styles */
 
 .plants-container {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .plants-title {
@@ -162,20 +162,26 @@ span {
 
 .Plants-lover-section-left {
   max-width: 540px;
-  /* position: relative; */
-}
-
-.flower-store-image {
   position: relative;
 }
 
-.trusted-image-badge {
-  display: none;
+/* .flower-store {
+  position: relative;
+} */
+
+.trusted-store .trusted-image-badge {
+  /* display: none; */
+  max-width: 290px;
+  height: 290px;
+}
+
+.trusted-store {
+  /* display: none; */
   max-width: 290px;
   height: 290px;
   position: absolute;
-  left: 580px;
-  bottom: -1355px;
+  left: 350px;
+  top: -130px;
 }
 
 .plants-lover-section-right {
@@ -303,6 +309,50 @@ button {
   color: #ffffff;
 }
 
+/* footer section styles */
+
+.footer-section {
+  height: 533px;
+  background-image: url("../images/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-bunch-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.color-bunch-container input {
+  width: 600px;
+  /* height: 50px; */
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+}
+
+.input-div {
+  display: flex;
+  margin: a;
+}
+
+.color-bunch-btn {
+  background-color: #e95a08;
+  padding: 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 576px) {
   .link1,
   .link2 {
@@ -315,6 +365,12 @@ button {
   .banner {
     flex-direction: column-reverse;
   }
+
+  .banner-image-container {
+    max-width: 100%;
+    margin: auto;
+  }
+
   .Plants-lover-section,
   .join-section-container {
     flex-direction: column;
@@ -325,6 +381,7 @@ button {
   }
   .plants-card-container {
     gap: 10px;
+    margin: auto;
   }
 
   .banner-title,
@@ -343,6 +400,7 @@ button {
   .plants-title {
     font-size: 2rem;
     text-align: center;
+    margin-top: 10px;
   }
   .plants-description {
     max-width: 400px;
@@ -352,16 +410,18 @@ button {
 
   .plants-card {
     max-width: 200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 10px;
   }
 
   .card-btn {
-    padding: 10px 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
   }
 
   .Plants-lover-section {
     margin-top: 50px;
+    margin: auto;
   }
 
   .Plants-lover-section-left {
@@ -377,6 +437,7 @@ button {
 
   .flower-store-image {
     width: 100%;
+    margin: auto;
   }
 
   .trusted-image-badge {
@@ -386,6 +447,7 @@ button {
   .plants-lover-section-right {
     max-width: 400px;
     padding: 8px;
+    margin: auto;
   }
 
   .unorder-list li {
@@ -419,5 +481,22 @@ button {
     font-size: 1.25rem;
     margin: auto;
     padding: 10px;
+  }
+
+  .color-bunch-heading {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .color-bunch-container input {
+    max-width: 216px;
+  }
+
+  .input-div {
+    margin: auto;
+  }
+
+  .footer-section {
+    height: 275px;
   }
 }
