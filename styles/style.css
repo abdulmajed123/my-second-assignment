@@ -170,11 +170,12 @@ span {
 }
 
 .trusted-image-badge {
-  width: 290px;
+  display: none;
+  max-width: 290px;
   height: 290px;
   position: absolute;
-  left: 730px;
-  top: 1790px;
+  left: 580px;
+  bottom: -1355px;
 }
 
 .plants-lover-section-right {
@@ -194,6 +195,27 @@ span {
   color: #00000080;
   margin-left: 20px;
   margin-bottom: 15px;
+}
+
+/* join section styles */
+.join-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.join-section-totle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.join-section-description {
+  max-width: 880px;
+  margin: auto;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #00000080;
+  margin-top: 16px;
 }
 
 @media screen and (max-width: 576px) {
@@ -243,6 +265,10 @@ span {
     max-width: 200px;
     margin: auto;
     padding: 10px;
+  }
+
+  .card-btn {
+    padding: 10px 20px;
   }
 
   /* .plants-card img {
